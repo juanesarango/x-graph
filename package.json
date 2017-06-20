@@ -1,0 +1,24 @@
+{
+  "name": "x-graph",
+  "version": "1.0.0",
+  "description": "Tool to draw nodes of enterpreunership networking contacts and partners.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juanesarango/x-graph.git"
+  },
+  "keywords": [
+    "node",
+    "graph",
+    "network"
+  ],
+  "author": "juanesarango",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juanesarango/x-graph/issues"
+  },
+  "homepage": "https://github.com/juanesarango/x-graph#readme"
+}
