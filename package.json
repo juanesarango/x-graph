@@ -4,7 +4,9 @@
   "description": "Tool to draw nodes of enterpreunership networking contacts and partners.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack",
+    "start": "webpack-dev-server"
   },
   "repository": "git+https://github.com/juanesarango/x-graph.git",
   "keywords": [
@@ -19,9 +21,13 @@
   },
   "homepage": "https://github.com/juanesarango/x-graph#readme",
   "devDependencies": {
-    "webpack": "^3.0.0"
+    "expose-loader": "^0.7.3",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.0"
   },
   "dependencies": {
-    "cytoscape": "^3.1.2"
+    "cytoscape": "^3.1.2",
+    "font-awesome": "^4.7.0",
+    "lodash": "^4.17.4"
   }
 }
